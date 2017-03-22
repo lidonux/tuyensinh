@@ -42,6 +42,7 @@
 		1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
 		2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
 		3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
-		<!-- Mã xác thực an ninh: <?php Hash::make('plain-text'); ?> -->
+		<br />
+		Mã xác thực an ninh: <?php Hash::make($ten . $ngay_sinh . $so_dien_thoai); ?>
 	</body>
 </html>
