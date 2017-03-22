@@ -12,4 +12,4 @@
 </header>
 <p><strong>I. THÔNG TIN THÍ SINH</strong><br />
 1. Họ và tên học sinh: {{ $ten }}
-2. Ngày sinh: {{ $ngay-sinh}}
+2. Ngày sinh: {{ $'ngay-sinh'}}
