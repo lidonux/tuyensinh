@@ -25,34 +25,34 @@
 		Bạn đã đăng ký dự thi với các thông tin như sau:<br />
 		
 		<p><strong>I. THÔNG TIN THÍ SINH</strong><br />
-		1. Họ và tên học sinh: {{ $ten }} <br />
-		2. Ngày sinh: {{ $ngay_sinh}} <br />
-		3. Số CMND: {{ $so_cmnd }} <br />
-		4. Giới tính: {{ $gioi_tinh }} <br />
-		5. Dân tộc: {{ $dan_toc }} <br />
-		6. Nơi học PTTH: <br />
-		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 10: {{ $truong_lop_10 }} <br />
-		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 11: {{ $truong_lop_11 }} <br />
-		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 12: {{ $truong_lop_12 }} <br />
-		7. Đối tượng ưu tiên (nếu có): {{ $doi_tuong_uu_tien }} <br />
-		8. Ưu tiên khu vực (nếu có): {{ $uu_tien_khu_vuc }} <br />
-		9. Hộ khẩu thường trú: {{ $ho_khau_thuong_tru }} <br />
-		10. Địa chỉ liên lạc: {{ $dia_chi_lien_lac }} <br />
-		11. Số điện thoại: {{ $so_dien_thoai }} <br />
-		12. Email: {{ $dia_chi_email }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;1. Họ và tên học sinh: {{ $ten }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngày sinh: {{ $ngay_sinh}} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;3. Số CMND: {{ $so_cmnd }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;4. Giới tính: {{ $gioi_tinh }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;5. Dân tộc: {{ $dan_toc }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;6. Nơi học PTTH: <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 10: {{ $truong_lop_10 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 11: {{ $truong_lop_11 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 12: {{ $truong_lop_12 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;7. Đối tượng ưu tiên (nếu có): {{ $doi_tuong_uu_tien }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;8. Ưu tiên khu vực (nếu có): {{ $uu_tien_khu_vuc }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;9. Hộ khẩu thường trú: {{ $ho_khau_thuong_tru }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;10. Địa chỉ liên lạc: {{ $dia_chi_lien_lac }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;11. Số điện thoại: {{ $so_dien_thoai }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }} <br />
 	
 		<p><strong>II. ĐĂNG KÝ DỰ THI</strong><br />
-		1. Môn bắt buộc: Toán<br />
-		2. Môn tự chọn: <br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
-		3. Ngôn ngữ đề thi: {{ $ngon_ngu }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;2. Môn tự chọn: <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }} <br />
 
 		<p><strong>III. NGÀNH ĐĂNG KÝ XÉT TUYỂN</strong><br />
-		1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
-		2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
-		3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
 		<br />
 		Mã xác thực an ninh: <?php echo Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU"); ?>
 	</body>
