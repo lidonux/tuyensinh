@@ -54,6 +54,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
 		<br />
-		Mã xác thực an ninh: <?php echo Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU"); ?>
+		<!--Mã xác thực an ninh: <?php echo Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU"); ?> --->
+		Mã xác thực an ninh: {{ $ma_an_ninh}}<br />
 	</body>
 </html>

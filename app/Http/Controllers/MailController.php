@@ -53,6 +53,7 @@ class MailController extends Controller
      	'nganh1'=>'Công Nghệ Thông Tin (Chương trình trong nước) (Mã ngành D480201)',
      	'nganh2'=>'Quản Trị Kinh Doanh (Chương trình trong nước) (Mã ngành D340101)',
      	'nganh3'=>'Kỹ Thuật Điện Tử, Truyền Thông (Chương trình trong nước) (Mã ngành D520207)',
+     	'ma_an_ninh'=>Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU")
 	    );
 
         Mail::send('mail', $data, function($message) {
