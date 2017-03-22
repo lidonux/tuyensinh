@@ -20,7 +20,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp; 2. Bản photo học bạ (5 học kỳ bao gồm HKI, HKII của các năm học lớp 10,11 và HKI của năm học lớp 12);<br />
 		&nbsp;&nbsp;&nbsp;&nbsp; 3. Bản sao công chứng thẻ học sinh (nếu thí sinh chưa tốt nghiệp THPT) hoặc giấy CMND (nếu thí sinh đã tốt nghiệp THPT).<br /><br />
 		
-		Bạn hãy vào trang <a href="http://tuyensinh.hcmiu.edu.vn/huong-dan-dang-ky/">"Kỳ thi kiểm tra năng lực" </a> để xem thêm thông tin.<br /> 
+		Bạn hãy vào trang <a href="http://tuyensinh.hcmiu.edu.vn/huong-dan-dang-ky/">"Kỳ thi kiểm tra năng lực" </a> để xem thêm thông tin.<br /> <br />
 		
 		Bạn đã đăng ký dự thi với các thông tin như sau:<br />
 		
