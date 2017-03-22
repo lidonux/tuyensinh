@@ -39,7 +39,7 @@ class MailController extends Controller
             $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
         });
     	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
-    	echo "Đã gửi Biên nhận cho $data['ten']";
+    	echo "Đã gửi Biên nhận cho $data[ten]";
     }
 
 }
