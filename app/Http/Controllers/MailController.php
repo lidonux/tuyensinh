@@ -32,7 +32,14 @@ class MailController extends Controller
     
     
     public function receipt_email(){
-    	return View::make('mail')->with('ten', 'Nguyen Tan Duc');
+	    $data = array('ten'=>"Ton Nu Quynh Hoa", "ngay-sinh"=>"13/06/1999");
+
+        Mail::send('mail', $data, function($message) {
+            $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('Bien nhan dang ky thi DHQT');
+            $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
+        });
+    	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
+    	echo "Đã gửi Biên nhận cho $data['ten']";
     }
 
 }
