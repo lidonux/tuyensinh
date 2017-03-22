@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class MailController extends Controller
 {
     //
+    
     public function basic_email(){
         $data = array('name'=>"GodSent", "salt"=>"tuyensinhIU");
 

@@ -11,4 +11,4 @@
     <h1 class="entry-title">Biên nhận đăng ký dự thi kỳ thi kiểm tra năng lực - kỳ tháng 05/2017</h1>
 </header>
 <p><strong>I. THÔNG TIN THÍ SINH</strong><br />
-1. Họ và tên học sinh * {{ $ten }}<br />
+1. Họ và tên học sinh * {{ $name }}<br />
