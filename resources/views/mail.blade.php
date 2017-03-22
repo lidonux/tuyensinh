@@ -15,7 +15,7 @@
 	<body>
 		Thân chào {{ $ten }},<br /><br />
 		
-		Chúng tôi đã nhận được thông tin đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017 của trường Đại học Quốc Tế. Tuy nhiên, bạn cần cung cấp cho chúng tôi các giấy tờ sau (nộp trực tiếp hoặc gửi qua bưu điện) để hoàn tất thủ tục đăng ký thi:<br />
+		Trường Đại học Quốc Tế đã nhận được thông tin đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017 của bạn. Tuy nhiên, bạn cần cung cấp thêm các giấy tờ sau (nộp trực tiếp hoặc gửi qua bưu điện) để hoàn tất thủ tục đăng ký thi:<br />
 		&nbsp;&nbsp;&nbsp;&nbsp; 1. 3 ảnh 3x4 (ảnh chụp không quá 6 tháng);<br />
 		&nbsp;&nbsp;&nbsp;&nbsp; 2. Bản photo học bạ (5 học kỳ bao gồm HKI, HKII của các năm học lớp 10,11 và HKI của năm học lớp 12);<br />
 		&nbsp;&nbsp;&nbsp;&nbsp; 3. Bản sao công chứng thẻ học sinh (nếu thí sinh chưa tốt nghiệp THPT hoặc giấy CMND (nếu thí sinh đã tốt nghiệp THPT).<br />
