@@ -9,10 +9,17 @@
 	</head>	
 
 	<header class="entry-header">
-    	<h1 class="entry-title">Biên nhận đăng ký dự thi kỳ thi kiểm tra năng lực - kỳ tháng 05/2017</h1>
+    	<h1 class="entry-title">Biên nhận đăng ký dự thi Kỳ thi kiểm tra năng lực - kỳ tháng 05/2017</h1>
 	</header>
 
 	<body>
+		Chào {{ $ten }},
+		
+		Chúng tôi đã nhận được thông tin đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017 của trường Đại học Quốc Tế. Tuy nhiên, bạn cần cung cấp cho chúng tôi các giấy tờ sau (nộp trực tiếp hoặc gửi qua bưu điện) để hoàn tất thủ tục đăng ký thi:
+		&nbsp;&nbsp;&nbsp;&nbsp; 1. 3 ảnh 3x4 (ảnh chụp không quá 6 tháng);
+		&nbsp;&nbsp;&nbsp;&nbsp; 2. Bản photo học bạ (5 học kỳ bao gồm HKI, HKII của các năm học lớp 10,11 và HKI của năm học lớp 12);
+		&nbsp;&nbsp;&nbsp;&nbsp; 3. Bản sao công chứng thẻ học sinh (nếu thí sinh chưa tốt nghiệp THPT hoặc giấy CMND (nếu thí sinh đã tốt nghiệp THPT).
+		 
 		<p><strong>I. THÔNG TIN THÍ SINH</strong><br />
 		1. Họ và tên học sinh: {{ $ten }} <br />
 		2. Ngày sinh: {{ $ngay_sinh}} <br />
@@ -43,6 +50,6 @@
 		2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
 		3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
 		<br />
-		Mã xác thực an ninh: <?php Hash::make($ten . $ngay_sinh . $so_dien_thoai); ?>
+		Mã xác thực an ninh: <?php echo Hash::make($ten . $ngay_sinh . $so_dien_thoai); ?>
 	</body>
 </html>
