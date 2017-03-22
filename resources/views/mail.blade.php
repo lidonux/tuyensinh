@@ -20,9 +20,9 @@
 		4. Giới tính: {{ $gioi_tinh }} <br />
 		5. Dân tộc: {{ $dan_toc }} <br />
 		6. Nơi học PTTH: <br />
-		- Lớp 10: {{ $truong_lop_10 }} <br />
-		- Lớp 11: {{ $truong_lop_11 }} <br />
-		- Lớp 12: {{ $truong_lop_12 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 10: {{ $truong_lop_10 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 11: {{ $truong_lop_11 }} <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- Lớp 12: {{ $truong_lop_12 }} <br />
 		7. Đối tượng ưu tiên (nếu có): {{ $doi_tuong_uu_tien }} <br />
 		8. Ưu tiên khu vực (nếu có): {{ $uu_tien_khu_vuc }} <br />
 		9. Hộ khẩu thường trú: {{ $ho_khau_thuong_tru }} <br />
@@ -33,9 +33,9 @@
 		<p><strong>II. ĐĂNG KÝ DỰ THI</strong><br />
 		1. Môn bắt buộc: Toán<br />
 		2. Môn tự chọn: <br />
-		Môn 1: {{ $mon1 }}<br />
-		Môn 2: {{ $mon3 }}<br />
-		Môn 3: {{ $mon2 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
 		3. Ngôn ngữ đề thi: {{ $ngon_ngu }} <br />
 
 		<p><strong>III. NGÀNH ĐĂNG KÝ XÉT TUYỂN</strong><br />
