@@ -22,6 +22,8 @@
 		
 		Bạn hãy vào trang <a href="http://tuyensinh.hcmiu.edu.vn/huong-dan-dang-ky/">"Kỳ thi kiểm tra năng lực" </a> để xem thêm thông tin.<br /> 
 		
+		Bạn đã đăng ký dự thi với các thông tin như sau:<br />
+		
 		<p><strong>I. THÔNG TIN THÍ SINH</strong><br />
 		1. Họ và tên học sinh: {{ $ten }} <br />
 		2. Ngày sinh: {{ $ngay_sinh}} <br />
