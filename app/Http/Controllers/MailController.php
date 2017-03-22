@@ -32,7 +32,7 @@ class MailController extends Controller
     
     
     public function receipt_email(){
-	    $data = array('ten'=>"Ton Nu Quynh Hoa", "ngay-sinh"=>"13/06/1999");
+	    $data = array('ten'=>'Ton Nu Quynh Hoa', 'ngay-sinh'=>'13/06/1999');
 
         Mail::send('mail', $data, function($message) {
             $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('Bien nhan dang ky thi DHQT');
