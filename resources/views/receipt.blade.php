@@ -94,7 +94,7 @@
 		</div>
 
         <div class="jumbotron">		
-        <h3>II. Đăng ký dự thi</h1>
+        <strong>II. Đăng ký dự thi<strong>
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Môn tự chọn: <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
