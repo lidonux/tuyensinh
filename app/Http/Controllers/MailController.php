@@ -57,7 +57,7 @@ class MailController extends Controller
 	    );
 
         Mail::send('mail', $data, function($message) {
-            $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('Biên nhận đăng ký thi kiểm tra năng lực');
+            $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('(Mẫu) Biên nhận đăng ký thi kiểm tra năng lực');
             $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
         });
     	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
