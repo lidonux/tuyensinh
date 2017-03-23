@@ -61,7 +61,7 @@ class MailController extends Controller
      	'ma_an_ninh'=>Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU")
 	    );
 
-        Mail::send('mail', $data, function($message) {
+        Mail::send('receipt', $data, function($message) {
             $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('(Mẫu) Biên nhận đăng ký thi kiểm tra năng lực');
             $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
             //$message->cc('ducnt@hcmiu.edu.vn', 'Nguyen Tan Duc');
