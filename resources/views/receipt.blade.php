@@ -74,7 +74,7 @@
 
         <div class="jumbotron">		
 		<div class="page-header">
-            <h1>I. Thông tin thí sinh</h1>
+            <h3>I. Thông tin thí sinh</h1>
         </div>
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Họ và tên học sinh: {{ $ten }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngày sinh: {{ $ngay_sinh}} <br />
@@ -95,7 +95,7 @@
 
         <div class="jumbotron">		
 		<div class="page-header">
-            <h1>II. Đăng ký dự thi</h1>
+            <h3>II. Đăng ký dự thi</h1>
         </div>
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Môn tự chọn: <br />
@@ -107,7 +107,7 @@
 		
 		<div class="jumbotron">		
 		<div class="page-header">
-            <h1>III. Ngành đăng ký xét tuyển</h1>
+            <h3>III. Ngành đăng ký xét tuyển</h1>
         </div>
 		
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
