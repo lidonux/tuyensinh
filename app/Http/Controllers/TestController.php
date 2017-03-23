@@ -46,7 +46,7 @@ class TestController extends Controller
             //$message->cc('dathu@hcmiu.edu.vn', 'Dao Anh Thu');
         });
         */
-    	$view = View::make('mail');
+    	$view = View::make('receipt');
     	$view->ten = 'Tôn Nữ Quỳnh Hoa';
     	$view->ngay_sinh = '13/06/1999';
 	    $view->so_cmnd = '032544624';
