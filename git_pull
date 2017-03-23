@@ -1,0 +1,4 @@
+#! /bin/bash
+git pull
+echo 'chown -R www-data:www-data ../'
+chown -R www-data:www-data ../
