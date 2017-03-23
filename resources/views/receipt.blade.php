@@ -73,9 +73,7 @@
 		Bạn đã đăng ký dự thi với các thông tin như sau:<br />
 
         <div class="jumbotron">		
-		<div class="page-header">
-            <h3>I. Thông tin thí sinh</h1>
-        </div>
+        <strong>I. Thông tin thí sinh</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Họ và tên học sinh: {{ $ten }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngày sinh: {{ $ngay_sinh}} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Số CMND: {{ $so_cmnd }} <br />
@@ -91,7 +89,6 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;10. Địa chỉ liên lạc: {{ $dia_chi_lien_lac }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;11. Số điện thoại: {{ $so_dien_thoai }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }}
-		</div>
 
         <strong>II. Đăng ký dự thi</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
@@ -100,12 +97,8 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }}
-		</div>
 		
-		<div class="page-header">
-            <h3>III. Ngành đăng ký xét tuyển</h1>
-        </div>
-		
+		<strong>III. Ngành đăng ký xét tuyển</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngành nguyện vọng 3: {{ $nganh3 }}
