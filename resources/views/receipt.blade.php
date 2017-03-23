@@ -93,8 +93,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }}
 		</div>
 
-        <div class="jumbotron">		
-        <strong>II. Đăng ký dự thi</strong>
+        <strong>II. Đăng ký dự thi</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Môn tự chọn: <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
@@ -103,7 +102,6 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }}
 		</div>
 		
-		<div class="jumbotron">		
 		<div class="page-header">
             <h3>III. Ngành đăng ký xét tuyển</h1>
         </div>
