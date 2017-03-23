@@ -62,7 +62,7 @@ class TestController extends Controller
      	$view->so_dien_thoai = '0908038038';
      	$view->dia_chi_email = 'hoaquynh.tonnu@gmail.com';
      	$view->mon1 = 'Lý';
-     	$mon2 = 'Hoá';
+     	$view->mon2 = 'Hoá';
      	$view->mon3 = 'Anh văn';
      	$view->ngon_ngu = 'Đề thi bằng Tiếng Việt (trừ đề thi môn Tiếng Anh)';
      	$view->nganh1 = 'Công Nghệ Thông Tin (Chương trình trong nước) (Mã ngành D480201)';
