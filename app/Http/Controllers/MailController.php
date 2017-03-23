@@ -33,6 +33,10 @@ class MailController extends Controller
     
     
     public function receipt_email(){
+    	$ten = "Tôn Nữ Quỳnh Hoa";
+    	$ngay_sinh = '13/06/1999';
+    	$so_dien_thoai = '0908038038';
+    	
 	    $data = array('ten'=>'Tôn Nữ Quỳnh Hoa', 
 	    'ngay_sinh'=>'13/06/1999',
 	    'so_cmnd' => '032544624',
@@ -60,7 +64,7 @@ class MailController extends Controller
         Mail::send('mail', $data, function($message) {
             $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('(Mẫu) Biên nhận đăng ký thi kiểm tra năng lực');
             $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
-            $mesage->cc('ducnt@hcmiu.edu.vn', 'Nguyen Tan Duc');
+            $message->cc('ducnt@hcmiu.edu.vn', 'Nguyen Tan Duc');
             $message->cc('dathu@hcmiu.edu.vn', 'Dao Anh Thu');
         });
     	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
