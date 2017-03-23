@@ -69,10 +69,11 @@
 		&nbsp;&nbsp;&nbsp;&nbsp; 3. Bản sao công chứng thẻ học sinh (nếu thí sinh chưa tốt nghiệp THPT) hoặc giấy CMND (nếu thí sinh đã tốt nghiệp THPT).<br /><br />
 		
 		Bạn hãy vào trang <a href="http://tuyensinh.hcmiu.edu.vn/huong-dan-dang-ky/">"Kỳ thi kiểm tra năng lực" </a> để xem thêm thông tin.<br /> <br />
-		
-		Bạn đã đăng ký dự thi với các thông tin như sau:<br />
 
         <div class="jumbotron">		
+        <div class="page-header">
+        <h3>Bạn đã đăng ký dự thi với các thông tin như sau:</h3>
+        </div>
         <strong>I. Thông tin thí sinh</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Họ và tên học sinh: {{ $ten }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngày sinh: {{ $ngay_sinh}} <br />
