@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="pingback" href="http://tuyensinh.hcmiu.edu.vn/xmlrpc.php" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 		<title>Biên nhận đăng ký dự thi kỳ thi kiểm tra năng lực - Trường Đại học Quốc Tế - Tuyển sinh đại học năm 2017</title>	
 	</head>	
 

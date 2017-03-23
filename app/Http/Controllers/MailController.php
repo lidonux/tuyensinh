@@ -64,8 +64,8 @@ class MailController extends Controller
         Mail::send('mail', $data, function($message) {
             $message->to('lhduong@hcmiu.edu.vn', 'Dr. Duong')->subject('(Mẫu) Biên nhận đăng ký thi kiểm tra năng lực');
             $message->from('lhduong@hcmiu.edu.vn', 'Le Hai Duong');
-            $message->cc('ducnt@hcmiu.edu.vn', 'Nguyen Tan Duc');
-            $message->cc('dathu@hcmiu.edu.vn', 'Dao Anh Thu');
+            //$message->cc('ducnt@hcmiu.edu.vn', 'Nguyen Tan Duc');
+            //$message->cc('dathu@hcmiu.edu.vn', 'Dao Anh Thu');
         });
     	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
     	echo "Đã gửi Biên nhận cho $data[ten]";
