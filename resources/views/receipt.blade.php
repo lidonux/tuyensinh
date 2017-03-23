@@ -60,7 +60,7 @@
       <div class="starter-template">
 	    
 	    <h1 class="entry-title">Biên nhận đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017</h1>
-
+		<br />
         <p class="lead">Thân chào {{ $ten }},<br /><br />
 		
 		Trường Đại học Quốc Tế đã nhận được thông tin đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017 của bạn. Tuy nhiên, bạn cần cung cấp thêm các giấy tờ sau (nộp trực tiếp hoặc gửi qua bưu điện) để hoàn tất thủ tục đăng ký thi:<br />
