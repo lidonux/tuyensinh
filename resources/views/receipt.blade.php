@@ -75,6 +75,7 @@
 		<div class="page-header">
             <h1>I. Thông tin thí sinh</h1>
         </div>
+        <div class="jumbotron">
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Họ và tên học sinh: {{ $ten }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngày sinh: {{ $ngay_sinh}} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Số CMND: {{ $so_cmnd }} <br />
@@ -90,27 +91,31 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;10. Địa chỉ liên lạc: {{ $dia_chi_lien_lac }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;11. Số điện thoại: {{ $so_dien_thoai }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }} <br />
-
+		</div>
+		
 		<div class="page-header">
             <h1>II. Đăng ký dự thi</h1>
         </div>
-	
+
+        <div class="jumbotron">
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Môn tự chọn: <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }} <br />
-
+		</div>
+		
 		<div class="page-header">
             <h1>III. Ngành đăng ký xét tuyển</h1>
         </div>
-
-		<strong>III. NGÀNH ĐĂNG KÝ XÉT TUYỂN</strong><br />
+		
+		<div class="jumbotron">
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;2. Ngành nguyện vọng 2: {{ $nganh2 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngành nguyện vọng 3: {{ $nganh3 }}<br />
 		<br />
+		</div>
 		<!--Mã xác thực an ninh: <?php echo Hash::make($ten . $ngay_sinh . $so_dien_thoai . "SATIU"); ?> --->
 		Mã xác thực an ninh: {{ $ma_an_ninh}}<br /></p>
       </div>
