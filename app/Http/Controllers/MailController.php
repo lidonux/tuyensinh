@@ -42,13 +42,13 @@ class MailController extends Controller
 	    'so_cmnd' => '032544624',
 	    'gioi_tinh'=>'Nữ',
 	    'dan_toc'=>'Kinh',
-	    'truong_lop_10'=>'Bùi Thị Xuân',
-	    'truong_lop_11'=>'Lê Quí Đôn',
-     	'truong_lop_12'=>'Lê Hồng Phong',
+	    'truong_lop_10'=>'Bùi Thị Xuân, Quận 3, Tp.HCM',
+	    'truong_lop_11'=>'Lê Quí Đôn, Quận 3, Tp.HCM',
+     	'truong_lop_12'=>'Lê Hồng Phong, Quận 3, Tp.HCM',
      	'doi_tuong_uu_tien'=>'1',
      	'uu_tien_khu_vuc'=>'3',
      	'ho_khau_thuong_tru'=>'KP 6 Linh Trung, Thủ Đức',
-     	'dia_chi_lien_lac'=>'1 Lê Duẩn, Q.1',
+     	'dia_chi_lien_lac'=>'1 Lê Duẩn, Q.1, Tp.HCM',
      	'so_dien_thoai'=>'0908038038',
      	'dia_chi_email'=>'hoaquynh.tonnu@gmail.com',
      	'mon1'=>'Lý',
@@ -70,5 +70,4 @@ class MailController extends Controller
     	// return View::make('mail')->with('ten', 'Nguyen Tan Duc');
     	echo "Đã gửi Biên nhận cho $data[ten]";
     }
-
 }
