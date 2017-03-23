@@ -9,7 +9,7 @@
     <meta name="author" content="International University">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Biên nhận đăng ký dự thi kỳ thi kiểm tra năng lực - Trường Đại học Quốc Tế - Tuyển sinh đại học năm 2017</title>
+    <title>Biên nhận đăng ký dự thi kỳ thi kiểm tra năng lực</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
   </head>
 
   <body>
-
+/*
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -53,7 +53,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
+*/
     <div class="container">
 
       <div class="starter-template">
