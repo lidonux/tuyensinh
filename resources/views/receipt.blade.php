@@ -88,7 +88,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;9. Hộ khẩu thường trú: {{ $ho_khau_thuong_tru }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;10. Địa chỉ liên lạc: {{ $dia_chi_lien_lac }} <br />
 		&nbsp;&nbsp;&nbsp;&nbsp;11. Số điện thoại: {{ $so_dien_thoai }} <br />
-		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }}
+		&nbsp;&nbsp;&nbsp;&nbsp;12. Email: {{ $dia_chi_email }}<br />
 
         <strong>II. Đăng ký dự thi</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Môn bắt buộc: Toán<br />
@@ -96,7 +96,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 1: {{ $mon1 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 2: {{ $mon3 }}<br />
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Môn 3: {{ $mon2 }}<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }}
+		&nbsp;&nbsp;&nbsp;&nbsp;3. Ngôn ngữ đề thi: {{ $ngon_ngu }}<br />
 		
 		<strong>III. Ngành đăng ký xét tuyển</strong><br />
 		&nbsp;&nbsp;&nbsp;&nbsp;1. Ngành nguyện vọng 1: {{ $nganh1 }}<br />
