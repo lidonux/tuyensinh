@@ -54,13 +54,12 @@
       </div>
     </nav>
 -->
-	<header class="entry-header">
-    	<h1 class="entry-title">(Mẫu)Biên nhận đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017</h1>
-	</header>
 
     <div class="container">
 
       <div class="starter-template">
+	    
+	    <h1 class="entry-title">Biên nhận đăng ký dự thi Kỳ thi kiểm tra năng lực 05/2017</h1>
 
         <p class="lead">Thân chào {{ $ten }},<br /><br />
 		
