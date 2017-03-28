@@ -11,13 +11,16 @@
 |
 */
 
+Route::get(
+
+);
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/', function () {
-   return 'Hello World';
-});
+   return '<h1> This is Tuyen sinh SAT 2017</h1><br />/var/www/html/tuyensinh';
+})->middleware('auth.basic');
 
 
 Route::get('foo/bar', function () {
@@ -48,3 +51,7 @@ Route::get('sendhtmlemail', 'MailController@html_email');
 Route::get('mail', 'MailController@receipt_email');
 
 Route::get('/mail_receipt', 'TestController@receipt_page');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
