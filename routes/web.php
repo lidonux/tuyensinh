@@ -11,16 +11,25 @@
 |
 */
 
-Route::get(
+Route::get('login', array(
 
-);
+	'uses'=>'MainController@showLogin'
+));
+Route::post('login', array(
+	'uses'=>'MainController@doLogin'
+));
+Route::get('logout', array(
+	'uses'=>'MainController@doLogout'
+));
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('/', function () {
    return '<h1> This is Tuyen sinh SAT 2017</h1><br />/var/www/html/tuyensinh';
 })->middleware('auth.basic');
+
+
+
 
 
 Route::get('foo/bar', function () {
